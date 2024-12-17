@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to DreamStay Hotel</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#booking">Booking</a>
+            <a href="#about us">About Us</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Find your perfect getaway</h2>
+        <p>Luxury, comfort, and relaxation await you.</p>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+            <div class="container">
+                <div class="img-container"><img src="room1.jpg" alt="deluxe" style="width:300px;height:200px;"></div>
+           <div class="data"> 
+            <h3>Deluxe Room</h3>
+            
+            <p>The Deluxe Room offers a perfect blend of luxury and comfort, designed to provide a relaxing escape from the everyday.
+            This spacious room features a plush king-size bed, a cozy seating area, and a modern ensuite bathroom with a rain shower and premium toiletries.
+            Enjoy stunning views from the large windows or private balcony, complemented by natural light. Amenities include high-speed Wi-Fi, a flat-screen TV, a minibar, and 24-hour room service, ensuring a seamless and indulgent stay. Ideal for couples and solo travelers seeking a refined retreat.</p>
+        <p>Price: $200/night</p></div>
+            </div>
+        </div>
+        <div class="room">
+           <div class="container">
+            <div class="img-container">
+                <img src="room2.jpg" alt="suite" style="width:300px;height:200px;">
+    
+                </div>
+                <div class="data">
+                     <h3>Suite</h3>
+                    <p>Experience the pinnacle of luxury in our elegantly designed Suite. Perfect for those seeking extra space and sophistication, the Suite features a separate living area and bedroom for added privacy and comfort. The bedroom boasts a plush king-size bed with premium linens, while the living area includes stylish furnishings, ideal for relaxation or entertaining. The lavish bathroom offers a soaking tub, a walk-in rain shower, and deluxe toiletries for a spa-like experience. Additional amenities include a private balcony with panoramic views, high-speed Wi-Fi, a large flat-screen TV, and a fully stocked minibar. The Suite promises an unforgettable stay, combining opulence and modern convenience.</p>
+                <p>Price: $300/night</p>
+                </div>
+           </div>
+        </div>
+
+        <div class="room">
+            <div class="container">
+             <div class="img-container">
+                 <img src="room3.jpg" alt="standard"  style="width:300px;height:200px;">
+     
+                 </div>
+                 <div class="data">
+                    <h3>Standard Room</h3>
+                    <p>The Standard Room provides a cozy and comfortable retreat, perfect for travelers seeking great value without compromising on quality. This well-appointed room features a queen-size bed with soft linens, a work desk, and a modern bathroom equipped with a walk-in shower and complimentary toiletries. Thoughtful amenities such as high-speed Wi-Fi, a flat-screen TV, and a coffee/tea maker ensure a convenient and pleasant stay. With its warm ambiance and functional design, the Standard Room is ideal for business travelers, couples, or solo adventurers.</p>
+                    <p>Price: $120/night</p>
+                 </div>
+            </div>
+         </div>
+
+
+       
+    </section>
+    <hr>
+
+    <section id="booking" class="booking-form">
+        <h2>Book Your Stay</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="roomType">Room Type:</label>
+            <select id="roomType" name="roomType">
+                <option value="Deluxe Room">Deluxe Room</option>
+                <option value="Suite">Suite</option>
+                <option value="Standard Room">Standard Room</option>
+            </select>
+
+            <label for="checkIn">Check-In Date:</label>
+            <input type="date" id="checkIn" name="checkIn" required>
+
+            <label for="checkOut">Check-Out Date:</label>
+            <input type="date" id="checkOut" name="checkOut" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </section>
+    <hr>
+
+    <section id="about us" class="aboutus">
+        <div class="data">
+            <h2>About Us</h2>
+    </div>
+        <p>Welcome to DreamStay Hotels, where luxury meets comfort to create unforgettable experiences for our guests. Located in premier destinations, DreamStay Hotels is your ideal choice for leisure, business, or a perfect getaway. Our philosophy revolves around exceptional hospitality, ensuring that every guest feels at home while enjoying world-class services and amenities. From stunning interiors to personalized care, we take pride in delivering moments of pure relaxation and joy.</p>
+        <div class="data">
+            <h3>You May Contact Us</h3>
+            <div class="link"> <i class="bi bi-facebook"></i> <a href="https://www.facebook.com/profile.php?id=100026583708768&mibextid=ZbWKwL">Shyna Kaye Marvilla</a></div>
+            <div class="link"> <i class="bi bi-instagram"></i> <a href="https://www.instagram.com/ayisssh/">Irish Gaviño</a></div>
+            <div class="link"> <i class="bi bi-envelope-at"></i> <a href="Kristinalumabad0613@gmail.com">Kristina Lumabad</a></div>
+            <div class="link"> <i class="bi bi-telephone-inbound"></i> <p>+639491321411 (John Paul Barredo) <br> +639674462652 (Christine Joy Desacula) <br> +639633581306 (Paul Cris Fuentes) </p></a></div>
+         </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 DreamStay Hotels. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
